@@ -31,4 +31,11 @@
     </repository>
 </repositories>
 
+<distributionManagement>
+    <repository>
+        <id>artifactory</id>
+        <url>http://localhost:8082/ui/admin/repositories/local</url>
+    </repository>
+</distributionManagement>
+
 </project>
